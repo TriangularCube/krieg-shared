@@ -6,4 +6,5 @@ export const NetworkErrorCode = Object.freeze({
 export const GameSetupCode = Object.freeze({
     Heartbeat: '--heartbeat--',
     ConnectionDropped: '--connection dropped--',
+    HandshakeComplete: 'handshake complete',
 })
