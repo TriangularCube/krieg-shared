@@ -3,6 +3,12 @@ export const NetworkErrorCode = Object.freeze({
     CouldNotVerifyLogin: 'Could not verify login',
 })
 
+export const WSCode = Object.freeze({
+    GenericError: 'Generic error',
+    NoSuchToken: 'No such token',
+    GameComplete: 'Game complete',
+})
+
 export const GameSetupCode = Object.freeze({
     Heartbeat: '--heartbeat--',
     ConnectionDropped: '--connection dropped--',
