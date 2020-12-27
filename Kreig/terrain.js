@@ -6,8 +6,8 @@ export const Terrain = new Map([
         {
             id: 0,
             moveCost: {
-                [MoveType.get('Infantry').id]: 1,
-                [MoveType.get('Assault').id]: 1,
+                [MoveType.get('Infantry')]: 1,
+                [MoveType.get('Assault')]: 1,
             },
         },
     ],
